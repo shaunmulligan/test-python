@@ -1,0 +1,10 @@
+local_resinos:
+  app-name: adc
+  build-triggers:
+    - Dockerfile: ea48c3b4f3dd278460b7e5b46fdc30ed21c8b2709518fdaf3f034ea4edb0677b
+  environment:
+    - RESIN=1
+destination: app
+ignore:
+  - .git
+  - node_modules/
