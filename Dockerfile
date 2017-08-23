@@ -8,6 +8,7 @@ RUN apt-get update && \
     python-smbus \
     python-pip \
     i2c-tools \
+    ModemManager \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN pip install adafruit-ads1x15
