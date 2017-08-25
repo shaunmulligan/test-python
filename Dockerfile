@@ -14,5 +14,5 @@ RUN apt-get update && \
 RUN pip install adafruit-ads1x15
 
 COPY . .
-
+ENV foo bar
 CMD python app/main.py
