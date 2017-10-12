@@ -1,4 +1,5 @@
-FROM resin/raspberry-pi-debian:jessie
+#FROM resin/raspberry-pi-debian:jessie
+FROM arm32v7/debian:jessie
 
 RUN apt-get update && \
     apt-get install -yq --no-install-recommends \
